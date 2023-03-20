@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Home</title>
+{% endblock %}
+
+{% block body %}
+<br>
+<form method="post" enctype=multipart/form-data>
+    
+    <h2>  upload the file </h2>
+    <div class="login">
+        <div class="col-sm-11 mx-auto">
+    <input class = "btn btn-lightbtn btn-primary btn-block btn-large" type="file" id="file" name="file">
+    </div>
+<br>
+<br>
+<input class = "btn btn-primary btn btn-primary btn-block btn-large" type='submit' value='Submit'>
+</div>
+</form>
+<br>
+<br>
+
+
+{% endblock %}

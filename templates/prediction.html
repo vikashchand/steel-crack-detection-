@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Home</title>
+{% endblock %}
+
+{% block body %}
+
+<div class="login">
+<h2>Result:</h2>
+<h3> {{prediction}} </h3>
+<br>
+
+<img src={{ img }} style="width:auto;height:300px;">
+<br>
+
+    <div class="col-sm-11 mx-auto">
+<a class="btn btn-primary btn-block " href="/tool" role="button">Go back</a>
+
+<h3>Coded by Vikash Chand with 💖 and 🔥</h3>
+</div>
+</div>
+{% endblock %}
